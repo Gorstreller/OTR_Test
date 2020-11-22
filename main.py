@@ -27,7 +27,7 @@ class SeleniumTest(object):
 
         self.browser.find_element_by_class_name('_1XiEJDPVpk').click()
 
-        self.browser.find_element_by_xpath('/html/body/div/').click()
+        self.browser.find_element_by_class_name('_8oEFsr-0y5').click()
 
     def make_screenshot(self):
         pyautogui.screenshot('screenshot.jpg')
